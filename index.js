@@ -7,4 +7,3 @@ app.get('/',(req,res)=>{
     res.send('Hello World')
 })
 app.listen(Port,()=>{console.log("App listing on Port:",Port);})
-console.log(process.env)
